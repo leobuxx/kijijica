@@ -1,0 +1,20 @@
+<h1>cookieSetter</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Setter</title>
+    <script>
+        // When the iframe content (this page) loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Try setting a cookie
+            document.cookie = "testCookie=testValue; samesite=none; secure"; 
+        });
+    </script>
+</head>
+<body>
+    Cookie Setter Payload
+</body>
+</html>
